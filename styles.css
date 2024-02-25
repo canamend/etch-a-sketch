@@ -1,0 +1,38 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  text-align: center;
+  background-color: brown;
+  color: white;
+  height: 5vh;
+  font-size: xx-large;
+  font-weight: 700;
+}
+
+.button:hover{
+  cursor: pointer;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 95vh;
+}
+.row {
+  display: flex;
+  flex: auto;
+}
+
+.col {
+  flex: auto;
+}
+
+.color {
+  background-color: rgba(0, 0, 0);
+  opacity: 0.0;
+}
+
